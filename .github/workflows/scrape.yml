@@ -1,0 +1,59 @@
+name: scrape
+
+# Public repo = free Actions minutes. The site (raghavahuja.com/mamdani-mapper)
+# reads public/mamdani/events.json from this repo's raw URL.
+on:
+  schedule:
+    - cron: '17 * * * *'   # press feed, hourly
+    - cron: '41 11 * * *'  # forward (upcoming) search, daily ~7am ET
+  workflow_dispatch:
+    inputs:
+      forward:
+        description: 'Also run the forward (upcoming) scraper'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Press feed
+        continue-on-error: true
+        env:
+          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/scrape-mamdani-schedule.mjs
+
+      - name: Forward (upcoming) search
+        if: github.event.schedule == '41 11 * * *' || inputs.forward
+        continue-on-error: true
+        env:
+          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/scrape-forward-schedule.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "mamdani-mapper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain public/mamdani)" ]]; then
+            git add public/mamdani
+            git commit -m "data: refresh $(date -u +%FT%TZ)"
+            for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          else
+            echo "no changes"
+          fi
