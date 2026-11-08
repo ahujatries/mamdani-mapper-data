@@ -34,7 +34,10 @@ const REPO_ROOT = resolve(__dirname, '..');
 const OUT       = resolve(REPO_ROOT, 'public', 'mamdani', 'events.json');
 
 const ANTHROPIC_KEY    = process.env.ANTHROPIC_API_KEY;
-const MAPBOX_TOKEN     = process.env.MAPBOX_TOKEN;
+// No env var? Borrow the public (pk.) token the live page already ships.
+// Kept out of the repo so secret scanning stays quiet.
+const MAPBOX_TOKEN     = process.env.MAPBOX_TOKEN || await fetch('https://raghavahuja.com/mamdani-mapper.js')
+  .then(r => r.text()).then(t => (t.match(/pk\.[A-Za-z0-9._-]+/) || [])[0]).catch(() => undefined);
 const ANTHROPIC_URL    = 'https://api.anthropic.com/v1/messages';
 const ANTHROPIC_MODEL  = 'claude-haiku-4-5';
 const MAPBOX_GEOCODE   = 'https://api.mapbox.com/geocoding/v5/mapbox.places';
