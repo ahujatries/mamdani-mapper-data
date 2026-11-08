@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-08T19:55:46.861Z",
+  "updated_at": "2026-11-08T20:25:16.782Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1311,6 +1311,36 @@
       "start": "2026-09-20T12:00:00-04:00",
       "end": "2026-09-20T17:00:00.000Z",
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/transcript-_mayor-mamdani-delivers-closing-remarks-at-u20",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "67e4425f096b",
+      "event_name": "Mamdani Administration, NYCHA and Brooklyn Navy Yard Unveil Model Sustainability Apartment for Public Housing",
+      "venue": "Brooklyn Navy Yard",
+      "address": "Brooklyn Navy Yard, Brooklyn, New York, United States",
+      "lat": 40.69798,
+      "lng": -73.97378,
+      "borough": "Brooklyn",
+      "kind": "appearance",
+      "start": "2026-09-22T12:00:00-04:00",
+      "end": "2026-09-22T17:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/mamdani-administration--nycha-and-brooklyn-navy-yard-unveil-mode",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "6d88bf73b094",
+      "event_name": "Fast Buses: Mayor Mamdani Completes the Bronx’s First Busway on Tremont Avenue",
+      "venue": "Tremont Avenue",
+      "address": "Tremont Avenue, Staten Island, New York 10314, United States",
+      "lat": 40.616132,
+      "lng": -74.150057,
+      "borough": "Bronx",
+      "kind": "announcement",
+      "start": "2026-09-23T12:00:00-04:00",
+      "end": "2026-09-23T17:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/fast-buses--mayor-mamdani-completes-the-bronx-s-first-busway-on-",
       "source": "NYC Mayor's Office press release"
     },
     {
