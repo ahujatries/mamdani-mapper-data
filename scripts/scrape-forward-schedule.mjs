@@ -33,7 +33,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const OUT       = resolve(REPO_ROOT, 'public', 'mamdani', 'events.json');
 
-const ANTHROPIC_KEY    = process.env.ANTHROPIC_API_KEY;
+const ANTHROPIC_KEY    = process.env.MAMDANI_ANTHROPIC_KEY || process.env.ANTHROPIC_API_KEY;  // cloud routines strip ANTHROPIC_API_KEY
 // No env var? Borrow the public (pk.) token the live page already ships.
 // Kept out of the repo so secret scanning stays quiet.
 const MAPBOX_TOKEN     = process.env.MAPBOX_TOKEN || await fetch('https://raghavahuja.com/mamdani-mapper.js')
