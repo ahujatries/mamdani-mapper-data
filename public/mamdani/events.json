@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-09T07:28:11.360Z",
+  "updated_at": "2026-11-09T08:24:59.272Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1385,6 +1385,21 @@
       "end": "2026-09-28T17:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-opens-new-jobs-nyc-center--connecting-new-yorkers-",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "fc17f765e2a2",
+      "event_name": "Mamdani Administration, NYCHA and Development Partners Put Public Land to Work, Breaking Ground on 229 Affordable Homes at Sol on Park",
+      "venue": "Morris Houses",
+      "address": "Mott Haven, Bronx, New York, United States",
+      "lat": 40.81103,
+      "lng": -73.92147,
+      "borough": "Bronx",
+      "kind": "groundbreaking",
+      "start": "2026-09-29T12:00:00-04:00",
+      "end": "2026-09-29T17:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/mamdani-administration--nycha-and-development-partners-put-publi",
       "source": "NYC Mayor's Office press release"
     },
     {
