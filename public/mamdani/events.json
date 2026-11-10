@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-09T23:24:58.996Z",
+  "updated_at": "2026-11-10T00:25:27.961Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1834,6 +1834,36 @@
       "end": "2026-11-05T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/fast-buses--mayor-mamdani-breaks-ground-on-project-to-speed-up-b",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "fc2043310d41",
+      "event_name": "Mayor Mamdani Mobilizes Citywide Winter Response, Expands Code Blue and Supercharges Snow and Ice Removal",
+      "venue": "Department of Sanitation's Spring Street Salt Shed",
+      "address": "Spring Street, New York, New York 10012, United States",
+      "lat": 40.724358,
+      "lng": -74.001527,
+      "borough": "Manhattan",
+      "kind": "transcript",
+      "start": "2026-11-09T12:00:00-05:00",
+      "end": "2026-11-09T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-mobilizes-citywide-winter-response--ex",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "3bf703986640",
+      "event_name": "Mayor Mamdani Breaks Ground on $184 Million Rebirth of Chinatown’s Historic 70 Mulberry Street",
+      "venue": "70 Mulberry Street",
+      "address": "70 Mulberry Street, New York, New York 10013, United States",
+      "lat": 40.716075,
+      "lng": -73.999016,
+      "borough": "Manhattan",
+      "kind": "groundbreaking",
+      "start": "2026-11-09T12:00:00-05:00",
+      "end": "2026-11-09T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/mayor-mamdani-breaks-ground-on--184-million-rebirth-of-chinatown",
       "source": "NYC Mayor's Office press release"
     }
   ]
