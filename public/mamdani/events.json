@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-13T17:25:14.373Z",
+  "updated_at": "2026-11-13T18:24:52.835Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1400,6 +1400,21 @@
       "end": "2026-09-29T17:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/mamdani-administration--nycha-and-development-partners-put-publi",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "575db52afb7d",
+      "event_name": "La administración Mamdani, NYCHA y sus socios de desarrollo ponen a trabajar la tierra pública con el inicio de obras de 229 viviendas asequibles en Sol on Park",
+      "venue": "Sol on Park",
+      "address": "Soundview, Bronx, New York, United States",
+      "lat": 40.827427,
+      "lng": -73.868225,
+      "borough": "Bronx",
+      "kind": "groundbreaking",
+      "start": "2026-09-29T12:00:00-04:00",
+      "end": "2026-09-29T17:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/la-administracion-mamdani--nycha-y-sus-socios-de-desarrollo-pone",
       "source": "NYC Mayor's Office press release"
     },
     {
