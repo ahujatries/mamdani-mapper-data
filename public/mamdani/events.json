@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-12T23:24:51.969Z",
+  "updated_at": "2026-11-13T00:25:13.337Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1864,6 +1864,21 @@
       "end": "2026-11-09T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/mayor-mamdani-breaks-ground-on--184-million-rebirth-of-chinatown",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "f385c3b27eca",
+      "event_name": "Mayor Mamdani Delivers Remarks At Flight 587 Memorial",
+      "venue": "Flight 587 Memorial",
+      "address": "Belle Harbor, Queens, New York, United States",
+      "lat": 40.575946,
+      "lng": -73.85235,
+      "borough": "Queens",
+      "kind": "remarks",
+      "start": "2026-11-12T12:00:00-05:00",
+      "end": "2026-11-12T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript-_mayor-mamdani-delivers-remarks-at-flight-587-memoria",
       "source": "NYC Mayor's Office press release"
     }
   ]
