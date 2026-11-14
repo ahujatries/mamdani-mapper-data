@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-13T23:24:25.256Z",
+  "updated_at": "2026-11-14T00:25:27.001Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1894,6 +1894,21 @@
       "end": "2026-11-12T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript-_mayor-mamdani-delivers-remarks-at-flight-587-memoria",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "0a8c9e9bd141",
+      "event_name": "A New Era for Greenpoint: Mayor Mamdani Completes McGuinness Boulevard Redesign",
+      "venue": "McGuinness Boulevard",
+      "address": "Mcguinness Boulevard, Brooklyn, New York 11222, United States",
+      "lat": 40.730915,
+      "lng": -73.951651,
+      "borough": "Brooklyn",
+      "kind": "appearance",
+      "start": "2026-11-13T12:00:00-05:00",
+      "end": "2026-11-13T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/a-new-era-for-greenpoint--mayor-mamdani-completes-mcguinness-bou",
       "source": "NYC Mayor's Office press release"
     }
   ]
