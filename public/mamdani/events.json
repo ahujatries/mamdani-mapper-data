@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-16T08:25:11.821Z",
+  "updated_at": "2026-11-17T07:24:56.862Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1909,6 +1909,21 @@
       "end": "2026-11-13T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/a-new-era-for-greenpoint--mayor-mamdani-completes-mcguinness-bou",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "dc6511a6ac7d",
+      "event_name": "Mayor Mamdani Holds a Press Conference to Make a Small Business Announcement",
+      "venue": "City Hall",
+      "address": "City Hall, New York, New York 10007, United States",
+      "lat": 40.712885,
+      "lng": -74.006327,
+      "borough": "Manhattan",
+      "kind": "press conference",
+      "start": "2026-11-13T12:00:00-05:00",
+      "end": "2026-11-13T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-holds-a-press-conference-to-make-a-sma",
       "source": "NYC Mayor's Office press release"
     }
   ]
