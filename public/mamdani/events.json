@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-17T23:24:55.864Z",
+  "updated_at": "2026-11-18T00:24:51.278Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1924,6 +1924,21 @@
       "end": "2026-11-13T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-holds-a-press-conference-to-make-a-sma",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "caff93654cc3",
+      "event_name": "Mayor Mamdani Joins Governor Hochul to Make Housing Announcement",
+      "venue": "Van Wyck",
+      "address": "Van Wyck Expy Terminal 4, Jamaica, New York 11430, United States",
+      "lat": 40.643797,
+      "lng": -73.78269,
+      "borough": "Queens",
+      "kind": "announcement",
+      "start": "2026-11-17T12:00:00-05:00",
+      "end": "2026-11-17T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-joins-governor-hochul-to-make-housing-",
       "source": "NYC Mayor's Office press release"
     }
   ]
