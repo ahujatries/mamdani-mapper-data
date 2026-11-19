@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-19T20:24:23.619Z",
+  "updated_at": "2026-11-19T21:24:47.619Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1778,17 +1778,17 @@
     },
     {
       "id": "279993e1f39a",
-      "event_name": "Mayor Mamdani Installs Brooklyn’s First Residential Empire Bins, Bringing City Closer to Trash-Free Sidewalks",
+      "event_name": "Mayor Mamdani Installs Brooklyn's First Resiedential Empire Bins, Bringing City Closer to Trash-Free Sidewalks",
       "venue": "Brooklyn Community District 2",
       "address": "Downtown Brooklyn, Brooklyn, New York, United States",
       "lat": 40.69358,
       "lng": -73.98319,
       "borough": "Brooklyn",
-      "kind": "visit",
+      "kind": "remarks",
       "start": "2026-10-29T12:00:00-04:00",
       "end": "2026-10-29T17:00:00.000Z",
       "time_known": false,
-      "source_url": "https://www.nyc.gov/mayors-office/news/2026/10/mayor-mamdani-installs-brooklyn-s-first-residential-empire-bins-",
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/10/transcript--mayor-mamdani-installs-brooklyn-s-first-resiedential",
       "source": "NYC Mayor's Office press release"
     },
     {
