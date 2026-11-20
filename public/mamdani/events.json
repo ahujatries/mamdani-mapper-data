@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-19T23:24:29.682Z",
+  "updated_at": "2026-11-20T00:25:16.459Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1954,6 +1954,36 @@
       "end": "2026-11-18T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/mamdani-administration-and-msquared-break-ground-on-134-homes-at",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "2f142758f230",
+      "event_name": "Mayor Mamdani Participates in the New York Times DealBook Summit with Andrew Ross Sorkin",
+      "venue": "Lincoln Center",
+      "address": "West 63rd Street, New York, New York 10023, United States",
+      "lat": 40.77362,
+      "lng": -73.987483,
+      "borough": "Manhattan",
+      "kind": "media",
+      "start": "2026-11-18T12:00:00-05:00",
+      "end": "2026-11-18T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-participates-in-the-new-york-times-dea",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "348356d4a1b2",
+      "event_name": "Mayor Mamdani Signs Intro 934, Romanch's Law",
+      "venue": "City Hall",
+      "address": "City Hall, New York, New York 10007, United States",
+      "lat": 40.712885,
+      "lng": -74.006327,
+      "borough": "Manhattan",
+      "kind": "bill signing",
+      "start": "2026-11-19T12:00:00-05:00",
+      "end": "2026-11-19T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-signs-intro-934--romanch-s-law",
       "source": "NYC Mayor's Office press release"
     }
   ]
