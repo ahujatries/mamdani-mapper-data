@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-20T08:25:25.643Z",
+  "updated_at": "2026-11-21T00:25:15.660Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1984,6 +1984,21 @@
       "end": "2026-11-19T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-signs-intro-934--romanch-s-law",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "02209e255f98",
+      "event_name": "Mayor Mamdani Releases City’s First Comprehensive Plan to Close Rikers Island",
+      "venue": "City Hall",
+      "address": "City Hall, New York, New York 10007, United States",
+      "lat": 40.712885,
+      "lng": -74.006327,
+      "borough": "Manhattan",
+      "kind": "announcement",
+      "start": "2026-11-20T12:00:00-05:00",
+      "end": "2026-11-20T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-releases-city-s-first-comprehensive-pl",
       "source": "NYC Mayor's Office press release"
     }
   ]
