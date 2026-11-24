@@ -1,6 +1,6 @@
 {
   "$schema_note": "Each event: id, event_name, venue, address, lat, lng, borough, kind, start (ISO 8601 with NY offset), end (ISO), source_url, source. Time zone is America/New_York. Default time = noon when only the date is known.",
-  "updated_at": "2026-11-23T22:25:08.867Z",
+  "updated_at": "2026-11-24T00:25:31.396Z",
   "source_url": "https://www.nyc.gov/mayors-office/news",
   "scraper_status": "ok",
   "events": [
@@ -1999,6 +1999,21 @@
       "end": "2026-11-20T18:00:00.000Z",
       "time_known": false,
       "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-releases-city-s-first-comprehensive-pl",
+      "source": "NYC Mayor's Office press release"
+    },
+    {
+      "id": "c1709f4f21f6",
+      "event_name": "Mayor Mamdani And Lyft Cap Citi Bike Member E-Bike Fares At $3.65 And Freeze Prices Through 2029",
+      "venue": "Prospect Lefferts Gardens",
+      "address": "Prospect Lefferts Gardens, Brooklyn, New York, United States",
+      "lat": 40.66012,
+      "lng": -73.95057,
+      "borough": "Brooklyn",
+      "kind": "announcement",
+      "start": "2026-11-23T12:00:00-05:00",
+      "end": "2026-11-23T18:00:00.000Z",
+      "time_known": false,
+      "source_url": "https://www.nyc.gov/mayors-office/news/2026/11/transcript--mayor-mamdani-and-lyft-cap-citi-bike-member-e-bike-f",
       "source": "NYC Mayor's Office press release"
     }
   ]
